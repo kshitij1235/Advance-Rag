@@ -1,10 +1,10 @@
-from adv_rag import KnowledgeBase,AdvancedRAG,MediumConfig
+from adv_rag import KnowledgeBase,AdvancedRAG,CompanyConfig
 
 def run():
-    kb = KnowledgeBase(dirs=["knowledge/docs"], name="alice",cfg=MediumConfig)
+    kb = KnowledgeBase(dirs=["knowledge/docs"], name="chem",cfg=CompanyConfig)
     rag = AdvancedRAG(kb)
 
-    results = rag.retrieve("what does alice know about deployment?", top_k=3)
+    results = rag.retrieve("tell me about all the topics in text book", top_k=3)
     print(rag.format(results))
 
 
