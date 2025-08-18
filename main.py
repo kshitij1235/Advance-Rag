@@ -4,7 +4,7 @@ def run():
     kb = KnowledgeBase(dirs=["knowledge/docs"], name="chem",cfg=CompanyConfig)
     rag = AdvancedRAG(kb)
 
-    results = rag.retrieve("tell me about all the topics in text book", top_k=3)
+    results = rag.retrieve("what is secrete code ", top_k=3)
     print(rag.format(results))
 
 

@@ -1,0 +1,10 @@
+chromadb
+xxhash
+cachetools 
+sentence_transformers
+polars
+hs4
+pyMuPDF
+faiss-cpu
+rank-bm25
+numpy
