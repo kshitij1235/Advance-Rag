@@ -2,3 +2,4 @@ chroma_db
 database
 knowledge
 __pycache__
+Pipfile.lock

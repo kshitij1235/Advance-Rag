@@ -3,7 +3,7 @@ xxhash
 cachetools 
 sentence_transformers
 polars
-hs4
+selectolax
 pyMuPDF
 faiss-cpu
 rank-bm25
